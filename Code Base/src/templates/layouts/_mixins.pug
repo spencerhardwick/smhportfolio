@@ -41,23 +41,23 @@ mixin contacts
 				.contacts__wrap
 					.contacts__stage.stage(data-aos="animation-scale-y") Say hello 👋
 					h2.contacts__title.h1(data-aos="animation-scale-y" data-aos-delay="200") Let’s Work <br>Together.
-					.contacts__info(data-aos="animation-scale-y" data-aos-delay="400") I’d love to meet up with you to discuss your venture, and potential collaborations.
+					.contacts__info(data-aos="animation-scale-y" data-aos-delay="400") Coffee chats? ✅<br></br>Collaborative projects? ✅<br></br>Engage in awesome conversation? ✅<br></br>Don't be shy. Get in touch!
 				.contacts__row
 					.contacts__details(data-aos="animation-translate-y")
-						a.contacts__line(href="mailto:hello@ui8.net")
+						a.contacts__line(href="mailto:spencerh@hey.com")
 							.contacts__icon
 								+i('email')
-							.contacts__text hello@ui8.net
+							.contacts__text spencerh@hey.com
 						.contacts__line
 							.contacts__icon
 								+i('place')
 							.contacts__text 
-								p 4074 Ebert Summit Suite 375
-								p Lake Leonardchester
+								p Saint Louis, MO 63110
+								p United States
 						a.contacts__line(href="tel:+441236547890")
 							.contacts__icon
 								+i('phone')
-							.contacts__text +44 123 654 7890
+							.contacts__text 720.266.1199
 					form.contacts__form(data-aos="animation-translate-y" data-aos-delay="200")
 						.contacts__field.field
 							.field__wrap
@@ -71,9 +71,7 @@ mixin contacts
 									+i('send')
 						.contacts__field.field
 							.field__wrap
-								select.field__select(name="question")
-									option What are you working on?
-									option What are you working on? 2
+								input.field__input(type="company" name="company" placeholder="Company")
 								.field__icon
 									+i('arrows')
 						.contacts__field.field.field_textarea
@@ -84,25 +82,7 @@ mixin contacts
 						.contacts__btn
 							button.btn.btn_purple
 								span.btn__text Let’s Talk
-								+i('arrow-right')
 				.contacts__category.h5 Let’s connect
-				.contacts__social
-					.contacts__box(data-aos="animation-translate-y")
-						a.contacts__link(href="#")
-							+i('instagram')
-							.contacts__text Instagram
-					.contacts__box(data-aos="animation-translate-y" data-aos-delay="150")
-						a.contacts__link(href="#")
-							+i('instagram')
-							.contacts__text Instagram
-					.contacts__box(data-aos="animation-translate-y" data-aos-delay="300")
-						a.contacts__link(href="#")
-							+i('instagram')
-							.contacts__text Instagram
-					.contacts__box(data-aos="animation-translate-y" data-aos-delay="450")
-						a.contacts__link(href="#")
-							+i('instagram')
-							.contacts__text Instagram
 				+figures
 
 mixin footer
@@ -113,7 +93,7 @@ mixin footer
 					img.footer__pic(src="img/logo-header-2.png" alt="")
 				.footer__wrap
 					.footer__title.h1 Wanna change the world?
-					.footer__info.h4 Let’s get after it.
+					.footer__info.h4 Let’s get started, together.
 				.footer__menu
 					a.footer__link(href="#") About Me
 					a.footer__link(href="#") Projects
@@ -121,7 +101,7 @@ mixin footer
 					a.footer__link(href="#") LinkedIn
 					a.footer__link(href="#") GitHub
 			.footer__bottom
-				.footer__copyright © 2021, smh systems.
+				.footer__copyright © 2021, smh systems
 				a.footer__scroll.js-scroll(href="#header") Back to top
 		.footer__bg
 			.footer__preview

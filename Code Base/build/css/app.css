@@ -846,7 +846,7 @@ a.btn { display: -webkit-inline-box; display: -ms-inline-flexbox; display: inlin
 
 .details__preview { position: relative; width: 240px; height: 240px; margin: 0 auto 68px; border-radius: 50%; font-size: 0; -webkit-transition: -webkit-transform .25s; transition: -webkit-transform .25s; -o-transition: transform .25s; transition: transform .25s; transition: transform .25s, -webkit-transform .25s; }
 
-.details__preview_cursor { background: #FFD301; }
+.details__preview_cursor { background: #073DA8; }
 
 .details__preview_cursor .details__img { top: 15px; right: -22px; width: 209px; }
 
