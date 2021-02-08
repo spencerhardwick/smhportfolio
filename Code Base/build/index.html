@@ -2,30 +2,30 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>smh_portfolio</title>
+    <title>Folio</title>
     <meta http-equiv="X-UA-Compatible" content="IE=Edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
     <meta name="format-detection" content="telephone=no">
-    <link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-smhicon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="img/smhicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="img/smhicon-16x16.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
     <link rel="manifest" href="img/site.webmanifest">
     <link rel="mask-icon" href="img/safari-pinned-tab.svg" color="#5bbad5">
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="theme-color" content="#ffffff">
-    <meta name="description" content="Spencer Hardwick is a Full-Stack Engineer with a passion for all things Product & Data.">
+    <meta name="description" content="Production-ready Portfolio and Case Study Template for Visual Designers">
     <meta name="twitter:card" content="summary">
-    <meta name="twitter:site" content="@smhsystems">
-    <meta name="twitter:title" content="Spencer Hardwick Portfolio">
-    <meta name="twitter:description" content="Spencer Hardwick is a Full-Stack Engineer with a passion for all things Product & Data.">
+    <meta name="twitter:site" content="@ui8">
+    <meta name="twitter:title" content="Folio Designer">
+    <meta name="twitter:description" content="Production-ready Portfolio and Case Study Template for Visual Designers">
     <meta name="twitter:creator" content="@ui8">
-    <meta name="twitter:image" content="https://imgur.com/49eMJrP">
-    <meta property="og:title" content="Spencer Hardwick Portfolio">
+    <meta name="twitter:image" content="https://ui8-folio.herokuapp.com/img/twitter-card.jpg">
+    <meta property="og:title" content="Folio Designer">
     <meta property="og:type" content="Article">
-    <meta property="og:url" content="https://imgur.com/49eMJrP">
-    <meta property="og:image" content="https://imgur.com/49eMJrP">
-    <meta property="og:description" content="Spencer Hardwick is a Full-Stack Engineer with a passion for all things Product & Data.">
-    <meta property="og:site_name" content="Spencer Hardwick Portfolio">
+    <meta property="og:url" content="https://ui8.net/ui8/products/folio-designer">
+    <meta property="og:image" content="https://ui8-folio.herokuapp.com/img/fb-og-image.jpg">
+    <meta property="og:description" content="Production-ready Portfolio and Case Study Template for Visual Designers">
+    <meta property="og:site_name" content="Folio Designer">
     <meta property="fb:admins" content="132951670226590">
     <link rel="stylesheet" media="all" href="css/app.css">
     <script>var viewportmeta = document.querySelector('meta[name="viewport"]');
@@ -42,30 +42,64 @@ if (viewportmeta) {
     <div class="page">
       <div class="main">
         <div class="header js-header" id="header">
-          <div class="header__center center"><a class="header__logo" href="index.html"><img class="header__pic" src="img/logo-header-2.png" alt="" /></a>
+          <div class="header__center center"><a class="header__logo" href="index.html"><img class="header__pic" src="img/logo.svg" alt="" /></a>
             <div class="header__social header__social_main"><a class="header__link" href="#"><svg class="icon icon-dribbble">
                   <use xlink:href="img/sprite.svg#icon-dribbble"></use>
-                </svg>🌐 LinkedIn</a><a class="header__link" href="#"><svg class="icon icon-instagram">
+                </svg>Dribbble</a><a class="header__link" href="#"><svg class="icon icon-instagram">
                   <use xlink:href="img/sprite.svg#icon-instagram"></use>
-                </svg>📌 GitHub</a></div>
+                </svg>Instagram</a></div><button class="header__burger js-header-burger"></button>
+          </div>
+          <div class="header__wrapper js-header-wrapper">
+            <div class="header__preview"><a class="header__logo" href="index.html"><img class="header__pic" src="img/logo-white.svg" alt="" /></a>
+              <div class="header__img"><img class="header__pic" src="img/bg-header.png" alt="" /></div>
+            </div>
+            <div class="header__center center">
+              <div class="header__contacts"><a class="header__line" href="mailto:hello@ui8.net">
+                  <div class="header__icon"><svg class="icon icon-email">
+                      <use xlink:href="img/sprite.svg#icon-email"></use>
+                    </svg></div>
+                  <div class="header__text">hello@ui8.net</div>
+                </a>
+                <div class="header__line">
+                  <div class="header__icon"><svg class="icon icon-place">
+                      <use xlink:href="img/sprite.svg#icon-place"></use>
+                    </svg></div>
+                  <div class="header__text">
+                    <p>4074 Ebert Summit Suite 375</p>
+                    <p>Lake Leonardchester</p>
+                  </div>
+                </div><a class="header__line" href="tel:+441236547890">
+                  <div class="header__icon"><svg class="icon icon-phone">
+                      <use xlink:href="img/sprite.svg#icon-phone"></use>
+                    </svg></div>
+                  <div class="header__text">+44 123 654 7890 </div>
+                </a>
+              </div>
+              <nav class="header__nav"><a class="header__item" href="#"><span>About</span></a><a class="header__item" href="#"><span>Work</span></a><a class="header__item" href="#"><span>Services</span></a><a class="header__item" href="#"><span>Contact</span></a></nav>
+              <div class="header__social header__social_inner"><a class="header__link" href="#"><svg class="icon icon-dribbble">
+                    <use xlink:href="img/sprite.svg#icon-dribbble"></use>
+                  </svg>Dribbble</a><a class="header__link" href="#"><svg class="icon icon-instagram">
+                    <use xlink:href="img/sprite.svg#icon-instagram"></use>
+                  </svg>Instagram</a></div>
+            </div>
           </div>
         </div>
-        <div class="main__bg"><img class="main__pic" src="img/bg-main-1.png" alt=""></div>
+        <div class="main__bg"><img class="main__pic" src="img/bg-main.jpg" alt=""></div>
         <div class="main__center center">
           <div class="main__wrap">
-            <h1 class="main__title title h1"><span data-aos="transform" data-aos-delay="150">Hi, I'm</span><span data-aos="transform" data-aos-delay="300"> Spencer.</span><br><span data-aos="transform" data-aos-delay="450">I love</span><span data-aos="transform" data-aos-delay="600">Engineering,</span><span data-aos="transform" data-aos-delay="750">Product,</span><span data-aos="transform" data-aos-delay="850">& Data!</span></h1>
-            <a class="scroll js-scroll" href="#details" data-aos="transform">
+            <div class="main__stage stage" data-aos="transform">Jack Gross</div>
+            <h1 class="main__title title h1"><span data-aos="transform" data-aos-delay="150">Hello, my</span><span data-aos="transform" data-aos-delay="300">name's Jack.</span><span data-aos="transform" data-aos-delay="450">I'm a Visual</span><span data-aos="transform" data-aos-delay="600">Designer.</span></h1><a class="scroll js-scroll" href="#details" data-aos="transform">
               <div class="scroll__icon"><img class="scroll__pic" src="img/scroll.svg" alt=""></div>
-              <div class="scroll__text">🎉 Scroll down 🎉</div>
+              <div class="scroll__text">Scroll down</div>
             </a>
           </div>
         </div>
         <div class="main__view" data-aos>
           <div class="main__preview"><img class="main__pic" src="img/main-pic-6.png" alt=""></div>
-          <div class="main__preview"><img class="main__pic js-parallax" data-scale="2.5" data-orientation="up" src="img/main-pic-11.png" alt=""></div>
-          <div class="main__preview"><img class="main__pic js-parallax" data-scale="1.5" data-orientation="up" src="img/main-pic-22.png" alt=""></div>
-          <div class="main__preview"><img class="main__pic" src="img/main-pic-33.png" alt=""></div>
-          <div class="main__preview"><img class="main__pic" src="img/main-pic-44.png" alt=""></div>
+          <div class="main__preview"><img class="main__pic js-parallax" data-scale="2.5" data-orientation="up" src="img/main-pic-1.png" alt=""></div>
+          <div class="main__preview"><img class="main__pic js-parallax" data-scale="1.5" data-orientation="up" src="img/main-pic-2.png" alt=""></div>
+          <div class="main__preview"><img class="main__pic" src="img/main-pic-3.png" alt=""></div>
+          <div class="main__preview"><img class="main__pic" src="img/main-pic-4.png" alt=""></div>
           <div class="main__preview"><img class="main__pic js-parallax" data-scale="4.5" data-orientation="up" src="img/main-pic-5.png" alt=""></div>
           <div class="main__preview"><img class="main__pic js-parallax" data-scale="1.5" data-orientation="down" src="img/main-pic-7.png" alt=""></div>
         </div>
@@ -79,61 +113,58 @@ if (viewportmeta) {
         <div class="details__center center">
           <div class="details__head" data-aos="animation-scale-y">
             <div class="details__stage stage">What I Do</div>
-            <h3 class="details__info h3">I'm driven towards moving<br>humanity forward with technology,<br>and better understanding how<br>we interact with it.</h3>
+            <h3 class="details__info h3">I enjoy creating delightful,  <br>human-centered digital experiences.</h3>
           </div>
-          <h2 class="details__title" data-aos="animation-scale-y">Observe. Reflect. <br>Build. </h2>
+          <h2 class="details__title" data-aos="animation-scale-y">Think. Make. <br>Solve. </h2>
+          <div class="details__btn" data-aos="animation-translate-y"><button class="btn btn_purple"><span class="btn__text">Contact Me</span><svg class="icon icon-arrow-right">
+                <use xlink:href="img/sprite.svg#icon-arrow-right"></use>
+              </svg></button></div>
           <div class="details__container">
-            <br></br>
-            <br></br>
-            <div class="details__stage stage">My Superpowers</div>
             <div class="details__slider owl-carousel js-slider-details">
               <div class="details__item">
-                <div class="details__preview" data-aos="animation-scale">
-                <img class="details__pic" src="img/Scene 5.png">
+                <div class="details__preview details__preview_cursor" data-aos="animation-scale">
+                  <div class="details__img"><img class="details__pic" src="img/cursor.png" alt=""></div>
                 </div>
-                <h5 class="details__category h5" data-aos="animation-scale-y">Restorative</h5>
-                <div class="details__text" data-aos="animation-scale-y">I excel at dealing with problems, identifying root causes, and bringing solutions with a bias for action.</div>
-                <div class="details__btn" data-aos="animation-scale-y"></div>
+                <h5 class="details__category h5" data-aos="animation-scale-y">User Interface</h5>
+                <div class="details__text" data-aos="animation-scale-y">We have got quite a few already made templates for better project management that you can use now.</div>
+                <div class="details__btn" data-aos="animation-scale-y"><button class="btn btn_dark">Find out more </button></div>
               </div>
               <div class="details__item">
-                <div class="details__preview" data-aos="animation-scale">
-                  <img class="details__pic" src="img/Scene 1.png">
+                <div class="details__preview details__preview_hand" data-aos="animation-scale" data-aos-delay="150">
+                  <div class="details__img"><img class="details__pic" src="img/hand.png" alt=""></div>
                 </div>
-                <h5 class="details__category h5" data-aos="animation-scale-y">Futuristic</h5>
-                <div class="details__text" data-aos="animation-scale-y">I'm inspired by the future and what could be. I energize others with my vision of the future.</div>
-                <div class="details__btn" data-aos="animation-scale-y"></div>
+                <h5 class="details__category h5" data-aos="animation-scale-y" data-aos-delay="150">User Experience</h5>
+                <div class="details__text" data-aos="animation-scale-y" data-aos-delay="150">We have got quite a few already made templates for better project management that you can use now.</div>
+                <div class="details__btn" data-aos="animation-scale-y" data-aos-delay="150"><button class="btn btn_dark">Find out more </button></div>
               </div>
               <div class="details__item">
-                <div class="details__preview" data-aos="animation-scale">
-                  <img class="details__pic" src="img/Scene 3.png">
+                <div class="details__preview details__preview_color" data-aos="animation-scale" data-aos-delay="300">
+                  <div class="details__img"><img class="details__pic" src="img/color-picker.png" alt=""></div>
                 </div>
-                <h5 class="details__category h5" data-aos="animation-scale-y">Input</h5>
-                <div class="details__text" data-aos="animation-scale-y">I have an innate desire to collect and archive. I relentlessly seek information, ideas, artifacts, and experiences.</div>
-                <div class="details__btn" data-aos="animation-scale-y"></div>
+                <h5 class="details__category h5" data-aos="animation-scale-y" data-aos-delay="300">UI Design Kit</h5>
+                <div class="details__text" data-aos="animation-scale-y" data-aos-delay="300">We have got quite a few already made templates for better project management that you can use now.</div>
+                <div class="details__btn" data-aos="animation-scale-y" data-aos-delay="300"><button class="btn btn_dark">Find out more </button></div>
               </div>
               <div class="details__item">
-                <div class="details__preview" data-aos="animation-scale" data-aos-delay="150">
-                  <img class="details__pic" src="img/Scene 9.png">
+                <div class="details__preview details__preview_cursor">
+                  <div class="details__img"><img class="details__pic" src="img/cursor.png" alt=""></div>
                 </div>
-                <h5 class="details__category h5" data-aos="animation-scale-y" data-aos-delay="150">Strategic</h5>
-                <div class="details__text" data-aos="animation-scale-y" data-aos-delay="150">I'm exceptionally talented at creating alternative ways of proceeding under uncertainty. Faced with any given scenario, I can quickly spot the relevant patterns and issues.</div>
-                <div class="details__btn" data-aos="animation-scale-y" data-aos-delay="150"></div>
+                <h5 class="details__category h5">User Interface</h5>
+                <div class="details__text">We have got quite a few already made templates for better project management that you can use now.</div><button class="details__btn btn btn_dark">Find out more </button>
               </div>
               <div class="details__item">
-                <div class="details__preview" data-aos="animation-scale" data-aos-delay="300">
-                  <img class="details__pic" src="img/Scene 9_pink.png">
+                <div class="details__preview details__preview_hand">
+                  <div class="details__img"><img class="details__pic" src="img/hand.png" alt=""></div>
                 </div>
-                <h5 class="details__category h5" data-aos="animation-scale-y" data-aos-delay="300">Learner</h5>
-                <div class="details__text" data-aos="animation-scale-y" data-aos-delay="300">I have a great desire to learn. I'm in an endless cycle of observation, reflection, and discovery. The process of learning, rather than the outcome, is what truly excites me.</div>
-                <div class="details__btn" data-aos="animation-scale-y" data-aos-delay="300"></div>
+                <h5 class="details__category h5">User Experience</h5>
+                <div class="details__text">We have got quite a few already made templates for better project management that you can use now.</div><button class="details__btn btn btn_dark">Find out more</button>
               </div>
               <div class="details__item">
-                <div class="details__preview" data-aos="animation-scale" data-aos-delay="450">
-                  <img class="details__pic" src="img/Scene 7.png">
+                <div class="details__preview details__preview_color">
+                  <div class="details__img"><img class="details__pic" src="img/color-picker.png" alt=""></div>
                 </div>
-                <h5 class="details__category h5" data-aos="animation-scale-y" data-aos-delay="450">Analytical</h5>
-                <div class="details__text" data-aos="animation-scale-y" data-aos-delay="450">I'm exceptionally talented at finding reasons and causes. I have the ability to think about all the factors that might affect a situation. </div>
-                <div class="details__btn" data-aos="animation-scale-y" data-aos-delay="450"></div>
+                <h5 class="details__category h5">UI Design Kit</h5>
+                <div class="details__text">We have got quite a few already made templates for better project management that you can use now.</div><button class="details__btn btn btn_dark">Find out more</button>
               </div>
             </div>
           </div>
@@ -142,21 +173,17 @@ if (viewportmeta) {
           <div class="details__figure"><img class="details__pic js-parallax" data-scale="2" data-orientation="down" src="img/figure-1.png" alt=""></div>
           <div class="details__figure"><img class="details__pic js-parallax" data-scale="2" data-orientation="up" src="img/figure-2.png" alt=""></div>
           <div class="details__figure"><img class="details__pic js-parallax" data-scale="1.2" data-orientation="up" src="img/figure-3.png" alt=""></div>
-        </div>
+        </div><a class="details__contact" href="#">Contact me</a>
       </div>
       <div class="work">
         <div class="work__circles"></div>
         <div class="work__center center">
           <div class="work__wrap">
-            <div class="work__stage stage stage_pink" data-aos="animation-scale-y">Who I Am</div>
-            <h2 class="work__title title h1" data-aos="animation-scale-y" data-aos-delay="150">These are my core values.</h2>
-            <div class="work__text" data-aos="animation-scale-y" data-aos-delay="300">I thrive in a dynamic, highly collaborative, radically transparent environment.
-              <br></br>I delight in approaching problems from first principles and finding signal in noise.
-              <br></br>I am relentless in my pursuit of a growth mindset.
-              <br></br>I am inspired by others who share my drive, passion, ambition, and curiosity.
-             </div><a class="scroll js-scroll" data-aos="animation-scale-y" href="#cases">
+            <div class="work__stage stage stage_pink" data-aos="animation-scale-y">Who I Work With</div>
+            <h2 class="work__title title h1" data-aos="animation-scale-y" data-aos-delay="150">Art Direction for Global Leading Brands.</h2>
+            <div class="work__text" data-aos="animation-scale-y" data-aos-delay="300">I research and create breakthrough - delightful ideas, leading visual designers.</div><a class="scroll js-scroll" data-aos="animation-scale-y" href="#cases">
               <div class="scroll__icon"><img class="scroll__pic" src="img/scroll.svg" alt=""></div>
-              <div class="scroll__text">🎉 Scroll down 🎉</div>
+              <div class="scroll__text">Scroll down</div>
             </a>
           </div>
         </div>
@@ -175,47 +202,39 @@ if (viewportmeta) {
         <div class="cases cases_main" id="cases">
           <div class="cases__center center">
             <div class="cases__stage stage" data-aos="animation-scale-y">Portfolio</div>
-            <h2 class="cases__title h1" data-aos="animation-scale-y" data-aos-delay="150">Never stop making<br>and exploring.</h2>
-            <div class="cases__nav" data-aos="animation-scale-y" data-aos-delay="300"><a class="cases__link active" href="#">Professional</a><a class="cases__link" href="#">Creative</a></div>
+            <h2 class="cases__title h1" data-aos="animation-scale-y" data-aos-delay="150">Look at My <br>Products.</h2>
+            <div class="cases__nav" data-aos="animation-scale-y" data-aos-delay="300"><a class="cases__link active" href="#">Website</a><a class="cases__link" href="#">Illustration</a><a class="cases__link" href="#">Mobile</a></div>
             <div class="cases__list js-owl" data-items-mobile-portrait="1" data-items-mobile-album="1" data-autoheight><a class="cases__item" data-aos="animation-translate-y" data-aos-delay="" href="case.html">
-                <div class="cases__preview"><img class="cases__pic" src="img/twitch-static3.png" alt="">
-                  <div class="cases__box">Check it<br>Out</div>
+                <div class="cases__preview"><img class="cases__pic" src="img/cases-pic-1.jpg" alt="">
+                  <div class="cases__box">Case <br>Study</div>
                 </div>
                 <div class="cases__body">
-                  <br></br>
-                  <br></br>
-                  <h4 class="cases__info h4">General Assembly</h4>
-                  <div class="cases__text">Product Management - Final Presentation</div>
+                  <h4 class="cases__info h4">Collab Landing Page</h4>
+                  <div class="cases__text">UI Kit, Coded Template</div>
                 </div>
               </a><a class="cases__item" data-aos="animation-translate-y" data-aos-delay="200" href="case.html">
-                <div class="cases__preview"><img class="cases__pic" src="img/coding-shot2.png" alt="">
-                  <div class="cases__box">Check it<br>Out</div>
+                <div class="cases__preview"><img class="cases__pic" src="img/cases-pic-2.jpg" alt="">
+                  <div class="cases__box">Case <br>Study</div>
                 </div>
                 <div class="cases__body">
-                  <br></br>
-                  <br>
-                  <h4 class="cases__info h4">Great_Expectations</h4>
-                  <div class="cases__text">Open source contributions</div>
+                  <h4 class="cases__info h4">Collab Landing Page</h4>
+                  <div class="cases__text">UI Kit, Coded Template</div>
                 </div>
               </a><a class="cases__item" data-aos="animation-translate-y" data-aos-delay="" href="case.html">
-                <div class="cases__preview"><img class="cases__pic" src="img/udacity-logo1.png" alt="">
-                  <div class="cases__box">Check it<br>Out</div>
+                <div class="cases__preview"><img class="cases__pic" src="img/cases-pic-3.jpg" alt="">
+                  <div class="cases__box">Case <br>Study</div>
                 </div>
                 <div class="cases__body">
-                  <br></br>
-                  <br></br>
-                  <h4 class="cases__info h4">Udacity</h4>
-                  <div class="cases__text">AI Product Manager Nanodegree</div>
+                  <h4 class="cases__info h4">Collab Landing Page</h4>
+                  <div class="cases__text">UI Kit, Coded Template</div>
                 </div>
               </a><a class="cases__item" data-aos="animation-translate-y" data-aos-delay="200" href="case.html">
-                <div class="cases__preview"><img class="cases__pic" src="img/udacity-logo1.png" alt="">
-                  <div class="cases__box">Check it<br>Out</div>
+                <div class="cases__preview"><img class="cases__pic" src="img/cases-pic-4.jpg" alt="">
+                  <div class="cases__box">Case <br>Study</div>
                 </div>
                 <div class="cases__body">
-                  <br></br>
-                  <br></br>
-                  <h4 class="cases__info h4">Udacity</h4>
-                  <div class="cases__text">Data Analyst Nanodegree</div>
+                  <h4 class="cases__info h4">Collab Landing Page</h4>
+                  <div class="cases__text">UI Kit, Coded Template</div>
                 </div>
               </a><a class="cases__item" data-aos="animation-translate-y" data-aos-delay="" href="case.html">
                 <div class="cases__preview"><img class="cases__pic" src="img/cases-pic-5.jpg" alt="">
@@ -242,54 +261,47 @@ if (viewportmeta) {
         </div>
         <div class="review">
           <div class="review__center center">
-            <div class="review__stage stage" data-aos="animation-scale-y">Word On The Street</div>
-            <h2 class="review__title title h1" data-aos="animation-scale-y" data-aos-delay="200">What it's like <br>working with me.</h2>
-            <div class="review__container" data-aos="animation-translate-y" data-aos-delay="600">
+            <div class="review__stage stage" data-aos="animation-scale-y">What People Say</div>
+            <h2 class="review__title title h1" data-aos="animation-scale-y" data-aos-delay="200">Trusted by <br>Clients.</h2>
+            <div class="review__container" data-aos="animation-translate-y" data-aos-delay="400">
               <div class="review__slider owl-carousel js-slider-review">
                 <div class="review__item">
-                  <div class="review__text">“Spencer and I worked together at Clever, and he definitely made a real impact on the team. His friendly demeanor made collaborating on group projects easy and enjoyable. Spencer cares about his teammates and will take extra steps to let you know he appreciates your contributions. He would often make it a point to thank someone for their hard work.
-His cheery demeanor and hearty laugh made even the toughest days manageable. He’s a great teammate and wants to see everyone succeed.”</div>
+                  <div class="review__text">“ Folio Designer is a clean and creative landing page that matches with any freelancer or designer, you can easily to build the page in Sketch or Figma.”</div>
                   <div class="review__author">
                     <div class="review__ava"><img class="review__pic" src="img/ava-1.jpg" alt=""></div>
                     <div class="review__details">
-                      <div class="review__man h5">CJ Ohm</div>
-                      <div class="review__company">National Account Manager - Clever Real Estate</div>
+                      <div class="review__man h5">Dash</div>
+                      <div class="review__company">UI8</div>
                     </div>
                   </div>
                 </div>
                 <div class="review__item">
-                  <div class="review__text">“Spencer was always willing to work weekends, late night, and go out of his way for customers. He often would volunteer to step up and work weekends and reschedule his day to help out with a shift. His numbers were always good and he's a a pleasure to work with - but what makes him truly special is his willingness to go the extra mile.”</div>
-                  <br></br>
-                  <br></br>
-                  <br>
+                  <div class="review__text">“ Folio Designer is a clean and creative landing page that matches with any freelancer or designer, you can easily to build the page in Sketch or Figma.”</div>
                   <div class="review__author">
                     <div class="review__ava"><img class="review__pic" src="img/ava-1.jpg" alt=""></div>
                     <div class="review__details">
-                      <div class="review__man h5">Hari Srinivasan</div>
-                      <div class="review__company">Vice President of Product Management - LinkedIn Learning</div>
+                      <div class="review__man h5">Dash</div>
+                      <div class="review__company">UI8</div>
                     </div>
                   </div>
                 </div>
                 <div class="review__item">
-                  <div class="review__text">“Spencer and I worked together as Technical Project Managers at Balto. I've seen Spencer go above and beyond in researching ways to make processes more efficient. His dedication to problem solving means he's eager to learn. I believe that's what makes him so valuable to any company.”</div>
-                  <br></br>
-                  <br></br>
-                  <br></br>
+                  <div class="review__text">“ Folio Designer is a clean and creative landing page that matches with any freelancer or designer, you can easily to build the page in Sketch or Figma.”</div>
                   <div class="review__author">
                     <div class="review__ava"><img class="review__pic" src="img/ava-1.jpg" alt=""></div>
                     <div class="review__details">
-                      <div class="review__man h5">Tenille Stewart</div>
-                      <div class="review__company">Senior HRIS Project Manager & Business Analyst - Post Holdings</div>
+                      <div class="review__man h5">Dash</div>
+                      <div class="review__company">UI8</div>
                     </div>
                   </div>
                 </div>
                 <div class="review__item">
-                  <div class="review__text">“Spencer is an extremely intelligent individual with an unbeatable work ethic. I had the privilege of working with Spencer during our time at General Assembly. He always had something beneficial to add to class discussions, and always looked to motivate others. One of his greatest attributes is the way he drives those around him to think deeper and more critically when analyzing situations. Spencer is an excellent addition to any team and brings so much to the table in terms of his knowledge and skillset.”</div>
+                  <div class="review__text">“ Folio Designer is a clean and creative landing page that matches with any freelancer or designer, you can easily to build the page in Sketch or Figma.”</div>
                   <div class="review__author">
                     <div class="review__ava"><img class="review__pic" src="img/ava-1.jpg" alt=""></div>
                     <div class="review__details">
-                      <div class="review__man h5">Christopher Petronella</div>
-                      <div class="review__company">Product Manager Intern - IntelleXt</div>
+                      <div class="review__man h5">Dash</div>
+                      <div class="review__company">UI8</div>
                     </div>
                   </div>
                 </div>
@@ -308,28 +320,28 @@ His cheery demeanor and hearty laugh made even the toughest days manageable. He�
                 <div class="contacts__wrap">
                   <div class="contacts__stage stage" data-aos="animation-scale-y">Say hello 👋</div>
                   <h2 class="contacts__title h1" data-aos="animation-scale-y" data-aos-delay="200">Let’s Work <br>Together.</h2>
-                  <div class="contacts__info" data-aos="animation-scale-y" data-aos-delay="400">Coffee chats? ✅<br></br>Collaborative projects? ✅<br></br>Engage in awesome conversation? ✅<br></br>Don't be shy. Get in touch!</div>
+                  <div class="contacts__info" data-aos="animation-scale-y" data-aos-delay="400">I’d love to meet up with you to discuss your venture, and potential collaborations.</div>
                 </div>
                 <div class="contacts__row">
-                  <div class="contacts__details" data-aos="animation-translate-y"><a class="contacts__line" href="mailto:spencerh@hey.com">
+                  <div class="contacts__details" data-aos="animation-translate-y"><a class="contacts__line" href="mailto:hello@ui8.net">
                       <div class="contacts__icon"><svg class="icon icon-email">
                           <use xlink:href="img/sprite.svg#icon-email"></use>
                         </svg></div>
-                      <div class="contacts__text">spencerh@hey.com</div>
+                      <div class="contacts__text">hello@ui8.net</div>
                     </a>
                     <div class="contacts__line">
                       <div class="contacts__icon"><svg class="icon icon-place">
                           <use xlink:href="img/sprite.svg#icon-place"></use>
                         </svg></div>
                       <div class="contacts__text">
-                        <p>Saint Louis, Missouri</p>
-                        <p>United States</p>
+                        <p>4074 Ebert Summit Suite 375</p>
+                        <p>Lake Leonardchester</p>
                       </div>
-                    </div><a class="contacts__line" href="tel:7202661199">
+                    </div><a class="contacts__line" href="tel:+441236547890">
                       <div class="contacts__icon"><svg class="icon icon-phone">
                           <use xlink:href="img/sprite.svg#icon-phone"></use>
                         </svg></div>
-                      <div class="contacts__text">720.266.1199</div>
+                      <div class="contacts__text">+44 123 654 7890</div>
                     </a>
                   </div>
                   <form class="contacts__form" data-aos="animation-translate-y" data-aos-delay="200">
@@ -348,7 +360,9 @@ His cheery demeanor and hearty laugh made even the toughest days manageable. He�
                       </div>
                     </div>
                     <div class="contacts__field field">
-                      <div class="field__wrap"><input class="field__input" type="text" name="company" placeholder="Company or Organization" />
+                      <div class="field__wrap"><select class="field__select" name="question">
+                          <option>What are you working on?</option>
+                          <option>What are you working on? 2</option>
                         </select>
                         <div class="field__icon"><svg class="icon icon-arrows">
                             <use xlink:href="img/sprite.svg#icon-arrows"></use>
@@ -403,15 +417,15 @@ His cheery demeanor and hearty laugh made even the toughest days manageable. He�
           </div>
           <div class="footer">
             <div class="footer__center center">
-              <div class="footer__body"><a class="footer__logo" href="index.html"><img class="footer__pic" src="img/logo-header-2.png" alt="" /></a>
+              <div class="footer__body"><a class="footer__logo" href="index.html"><img class="footer__pic" src="img/logo-empty.svg" alt="" /></a>
                 <div class="footer__wrap">
-                  <div class="footer__title h1">Want to change the world together?</div>
-                  <div class="footer__info h4">Let’s get after it.</div>
+                  <div class="footer__title h1">You only have one chance to make a first impression.</div>
+                  <div class="footer__info h4">Let’s make it an amazing one.</div>
                 </div>
                 <div class="footer__menu"><a class="footer__link" href="#">About Me</a><a class="footer__link" href="#">Projects</a><a class="footer__link" href="#">Contact</a><a class="footer__link" href="#">Dribbble</a><a class="footer__link" href="#">Instagram</a></div>
               </div>
               <div class="footer__bottom">
-                <div class="footer__copyright">© 2021, ui8 & Spencer Hardwick</div><a class="footer__scroll js-scroll" href="#header">Back to top</a>
+                <div class="footer__copyright">© 2020, UI8 LLC.</div><a class="footer__scroll js-scroll" href="#header">Back to top</a>
               </div>
             </div>
             <div class="footer__bg">
